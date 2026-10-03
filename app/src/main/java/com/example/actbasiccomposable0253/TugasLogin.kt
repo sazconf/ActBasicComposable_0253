@@ -3,6 +3,7 @@ package com.example.actbasiccomposable0253
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.Row
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -18,5 +19,9 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             contentScale = ContentScale.Fit
         )
         Text(text = "My Music Login")
+        Row {
+            Text(text = "Username")
+            Text(text = "Password")
+        }
     }
 }
