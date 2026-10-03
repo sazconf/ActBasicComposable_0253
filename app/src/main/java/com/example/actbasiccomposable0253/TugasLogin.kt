@@ -128,8 +128,8 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     Button(
                         onClick = {
                             message = if (
-                                username.trim() == "Pascal Pahlevi Pasha" &&
-                                password == "2000014001"
+                                username.trim() == "MD SAZZAD HOSSAIN SOHAG" &&
+                                password == "20240140253"
                             ) {
                                 "Login berhasil"
                             } else {
